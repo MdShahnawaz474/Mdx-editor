@@ -1,7 +1,7 @@
 'use client'
 import Editor from "@/components/Editor";
 import Preview from "@/components/Preview";
-import Image from "next/image";
+
 import { useEffect, useState } from "react";
 
 export default function Home() {

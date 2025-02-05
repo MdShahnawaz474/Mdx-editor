@@ -6,8 +6,8 @@ interface editorProps {
 }
 function Editor({ markdown , setMarkdown }: editorProps) {
 
-    // @ts-ignore
-    const saveMDXFile = (fileName,context)=>{
+    @ts-ignore
+    const saveMDXFile = (fileName:any,context:any)=>{
         try {
             const blob = new Blob([context],{ type:'text/mdx'});
 
