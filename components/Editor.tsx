@@ -7,7 +7,7 @@ interface editorProps {
 function Editor({ markdown , setMarkdown }: editorProps) {
 
   
-    const saveMDXFile = (fileName:any,context:any)=>{
+    const saveMDXFile = (fileName:string,context:string)=>{
         try {
             const blob = new Blob([context],{ type:'text/mdx'});
 
