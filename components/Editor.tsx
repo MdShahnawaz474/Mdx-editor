@@ -16,7 +16,7 @@ function Editor({ markdown , setMarkdown }: editorProps) {
             link.download = `${fileName}.mdx`
             link.click()
             console.log(`File Saved :${fileName}.mdx`);
-            
+            // URL.revokeObjectURL(link.href);
         } catch (error) {
             console.log('Error savinng mdx file', error);
             
