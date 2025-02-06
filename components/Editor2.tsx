@@ -1,6 +1,6 @@
 "use client"; // Ensure this is a Client Component
 
-import React, { useState } from "react";
+import React from "react";
 
 interface EditorProps {
   markdown: string;
