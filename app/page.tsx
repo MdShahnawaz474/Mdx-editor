@@ -1,5 +1,5 @@
 'use client'
-import Editor from "@/components/Editor";
+// import Editor from "@/components/Editor";
 import Editor2 from "@/components/Editor2";
 import Preview from "@/components/Preview";
 
